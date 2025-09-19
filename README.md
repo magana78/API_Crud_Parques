@@ -43,8 +43,8 @@ Este sistema fue desarrollado como parte de una prueba técnica para consumir un
 
 1. **Clonar el repositorio:**
 ```bash
-git clone <tu-repositorio-url>
-cd sistema-gestion-parques
+git clone https://github.com/magana78/API_Crud_Parques.git
+cd parks-crud
 ```
 
 2. **Instalar dependencias:**
