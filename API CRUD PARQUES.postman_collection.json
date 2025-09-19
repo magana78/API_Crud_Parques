@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "dc4b2d68-2ef8-4ff1-b10d-a0fe7fd00ded",
+		"name": "API CRUD PARQUES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48584370",
+		"_collection_link": "https://ivanalverto4-1493725.postman.co/workspace/Iv%C3%A1n-alberto-Maga%C3%B1a-Aguilar's-W~391328fd-3dbb-4a33-854f-4d6f3fb53247/collection/48584370-dc4b2d68-2ef8-4ff1-b10d-a0fe7fd00ded?action=share&source=collection_link&creator=48584370"
+	},
+	"item": [
+		{
+			"name": "GET - Parque Individual",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Ambu-Public-Key",
+						"value": "AMBU-T-BXiqUTFtRg8PbWLc-57055915-n59AHW",
+						"type": "text"
+					},
+					{
+						"key": "Ambu-Private-Key",
+						"value": "AMBU-fVN0VyresedITDPm7pvGrjnb2urUxlR0EKsS1qc86T4VEWP6-VFZ4N83UcrKS357V-T",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://azuritaa33.sg-host.com/api/web/v1/parks",
+					"protocol": "https",
+					"host": [
+						"azuritaa33",
+						"sg-host",
+						"com"
+					],
+					"path": [
+						"api",
+						"web",
+						"v1",
+						"parks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
